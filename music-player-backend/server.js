@@ -46,7 +46,7 @@ app.post('/songs', async (req, res) => {
 
 // Default route
 app.get('/', (req, res) => {
-    res.send('Welcome to the Music Player API');
+    res.send('Welcome to the Music Player API i guess');
 });
 
 app.listen(port, () => {

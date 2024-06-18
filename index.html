@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/34c188a6ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="player">
+        <div class="song-info">
+            <img src="images/defualt.jpg" alt="Song Photo" id="song-photo">
+            <h3 id="song-title">Song Title</h3>
+            <h3 id="artist-name">Artist Name</h3>
+        </div>
+        <audio id="audio" autoplay></audio>
+        <div class="controls">
+            <button i id="prev" class="fa-solid fa-backward"></i></button>
+            <button i id="play-pause" class="fa-solid fa-play"></i></button>
+            <button i id="next" class="fa-solid fa-forward"></i></button>
+            <button i class="fa-solid fa-shuffle"id="shuffle"></i></button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
